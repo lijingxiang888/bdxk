@@ -1,0 +1,21 @@
+.footer {
+    width: 1024px;
+    height: 157px;
+    margin: 0 auto;
+    background: url("../images/bottom_bg.jpg");
+    overflow: hidden;
+
+}
+.footer p {
+    line-height: 22px;
+    text-align: center;
+}
+.footer p:first-child {
+    margin-top: 10px;
+}
+.footer p.mark {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    background: url("../images/mark.png");
+}

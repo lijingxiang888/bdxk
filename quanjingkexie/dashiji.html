@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>保定市科学技术协会-大事记</title>
+    <meta name="keywords" content="保定科协,保定市科协,保定市科学技术协会,保定市科协网,保定市科学技术协会网,全景科协,大事记">
+    <meta name="description" content="保定市科学技术协网作为保定市科学技术协会门户网站,为您提供保定市科协公务信息及其他相关信息,网址:www.bdkxw.org.cn">
+    <link rel="stylesheet" href="../css/reset.min.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/quanjingkexie/dashiji.css">
+</head>
+<body>
+<!--header begin-->
+<div class="header">
+
+</div>
+<!--header end-->
+
+<!--main begin-->
+<div class="main clear">
+    <div class="kinds">
+        <div class="kinds-title"></div>
+        <ul>
+            <li><a href="aboutkexie.html">科协简介</a></li>
+            <li><a href="zuzhijigou.html">组织机构</a></li>
+            <li><a href="shizhixuehui.html">市直学会（学会联合体）</a></li>
+            <li><a href="lingdaojianghua.html">领导讲话</a></li>
+            <li><a href="zhongyaowenjian.html">重要文件</a></li>
+            <li><a href="dashiji.html" style="color: #d73a3a">大事记</a></li>
+            <li><a href="javascript:;">《保定科协》内刊电子版</a></li>
+        </ul>
+
+    </div>
+    <div class="content">
+        <div class="content-title">
+            <p>当前位置：
+                <span><a href="../index.html">首页>></a></span>
+                <span><a href="aboutkexie.html">全景科协>></a></span>
+                <span><a href="shizhixuehui.html">大事记>></a></span>
+            </p>
+        </div>
+        <div class="content-list">
+            <div class="content-list-title">
+                2017年
+            </div>
+            <p><a download="../download/2017.docx" href="../download/2017.docx">2017年全年大事记</a></p>
+        </div>
+        <div class="content-list">
+            <div class="content-list-title">
+                2016年
+            </div>
+            <p><a download="../download/2016.docx" href="../download/2016.docx">2016年全年大事记</a></p>
+        </div>
+
+    </div>
+
+</div>
+<!--main end-->
+
+<!--footer begin-->
+<div class="footer">
+
+</div>
+<!--footer end-->
+<!--[if lt IE 9]>
+<script type="text/javascript" src="../js/html5.min.js"></script>
+<![endif]-->
+<script src="../js/jquery1.42.min.js"></script>
+<script>
+
+    /*导入模块*/
+    $(function () {
+        $(".header").load("../header.html");
+        $(".footer").load("../footer.html");
+        $("html,body").animate({"scrollTop":"230px"},10)
+    });
+    /*检测当前浏览器是否支持 a 标签的download属性*/
+    var isSupportDownload = 'download' in document.createElement('a');
+
+    if ( !isSupportDownload ) { //如果不支持
+        var $link = $('a'); //得到页面上所有的a标签
+
+        $link.each(function() { //循环a标签，找到页面上带有download属性的a标签
+            var $download = $(this).attr('download');
+
+            if (typeof $download !== typeof undefined && $download !== false) {
+                var $el = $('<span>').addClass('download-instruction').text('如需下载请右击并选择"目标另存为"');
+                $el.insertAfter($(this)).hide();
+                $(this).hover(function () {
+                    $el.show();
+                },function () {
+                    $el.hide();
+                })
+            }
+
+        });
+    }
+</script>
+</body>
+</html>
