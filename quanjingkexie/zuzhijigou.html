@@ -5,6 +5,9 @@
     <title>保定市科学技术协会-组织机构</title>
     <meta name="keywords" content="保定科协,保定市科协,保定市科学技术协会,保定市科协网,保定市科学技术协会网,全景科协,组织机构">
     <meta name="description" content="保定市科学技术协网作为保定市科学技术协会门户网站,为您提供保定市科协公务信息及其他相关信息,网址:www.bdkxw.org.cn">
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="../js/html5.min.js"></script>
+    <![endif]-->
     <link rel="stylesheet" href="../css/reset.min.css">
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/footer.css">
@@ -13,7 +16,33 @@
 <body>
 <!--header begin-->
 <header class="header">
+    <div class="backend-system">
+        <span><a href="javascript:;">系统登录</a></span>
+    </div>
+    <div class="header-box clear">
+        <div class="logo-pic">
 
+        </div>
+        <div class="web-name">
+            <h1>保定市科学技术协会</h1>
+            <p>www.bdkxw.org.cn</p>
+        </div>
+        <div class="slogan">
+
+        </div>
+    </div>
+    <nav>
+        <ul class="clear">
+            <li><a href="../index.html">首页</a></li>
+            <li><a href="kexiejianjie.html">全景科协</a></li>
+            <li><a href="../xuehuixueshu/gongzuodongtai.html">学会学术</a></li>
+            <li><a href="javascript:;">科学普及</a></li>
+            <li><a href="javascript:;">创新驱动</a></li>
+            <li><a href="javascript:;">深化改革</a></li>
+            <li><a href="javascript:;">互动平台</a></li>
+            <li><a href="javascript:;">党的建设</a></li>
+        </ul>
+    </nav>
 </header>
 <!--header end-->
 
@@ -22,7 +51,7 @@
     <div class="kinds">
         <div class="kinds-title"></div>
         <ul>
-            <li><a href="aboutkexie.html">科协简介</a></li>
+            <li><a href="kexiejianjie.html">科协简介</a></li>
             <li><a href="zuzhijigou.html" style="color: #d73a3a">组织机构</a></li>
             <li><a href="shizhixuehui.html">市直学会（学会联合体）</a></li>
             <li><a href="lingdaojianghua.html">领导讲话</a></li>
@@ -36,7 +65,7 @@
         <div class="content-title">
             <p>当前位置：
                 <span><a href="../index.html">首页>></a></span>
-                <span><a href="aboutkexie.html">全景科协>></a></span>
+                <span><a href="kexiejianjie.html">全景科协>></a></span>
                 <span><a href="zuzhijigou.html">组织机构>></a></span>
             </p>
         </div>
@@ -75,14 +104,10 @@
 
 </footer>
 <!--footer end-->
-<!--[if lt IE 9]>
-<script type="text/javascript" src="../js/html5.min.js"></script>
-<![endif]-->
 <script src="../js/jquery1.42.min.js"></script>
 <script>
     /*导入模块*/
     $(function () {
-        $(".header").load("../header.html");
         $(".footer").load("../footer.html");
         $("html,body").animate({"scrollTop":"230px"},10)
     });
