@@ -52,6 +52,7 @@ figure {
     border-bottom: 3px solid #b0c7d7;
 }
 .main .content {
+    position: relative;
     float: right;
     width: 725px;
     min-height: 700px;
@@ -77,10 +78,10 @@ figure {
 .main .content .content-title span {
     margin-left: 10px;
 }
-.main .content ul {
+.main .content ul:nth-child(2) {
     padding: 10px 0;
 }
-.main .content ul li {
+.main .content ul:nth-child(2) li {
     width: 700px;
     margin: 0 auto;
     line-height: 30px;
@@ -92,7 +93,7 @@ figure {
     overflow: hidden;
 
 }
-.main .content ul li i {
+.main .content ul:nth-child(2) li i {
     display: inline-block;
     width: 4px;
     height: 4px;
@@ -100,4 +101,60 @@ figure {
     margin-top: -4px;
     background-color: #009DE0;
     vertical-align: middle;
+}
+.main .content ul:nth-child(2) li span {
+    float: right;
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 14px;
+}
+.main .content .content-pages {
+    position: absolute;
+    width: 100%;
+    bottom: 20px;
+}
+.main .content .content-pages > span {
+    position: absolute;
+    padding: 3px 10px;
+    left: 197px;
+    top: 0;
+    border: 1px solid #ccc;
+}
+.main .content .content-pages > span a {
+    color: #009DE0;
+}
+.main .content .content-pages > span:hover {
+    background-color: #009DE0;
+}
+.main .content .content-pages > span:hover a {
+    color: #fff;
+}
+.main .content .content-pages > span:last-child {
+    left: 454px;
+}
+.main .content .content-pages ul {
+    width: 182px;
+    height: 24px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.main .content .content-pages ul li {
+    float: left;
+    height: 22px;
+    line-height: 22px;
+    margin: 0 2px;
+    padding: 0 8px;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+.main .content .content-pages ul li a {
+    color: #61bde4;
+}
+.main .content .content-pages ul li:hover {
+    background-color: #009DE0;
+}
+.main .content .content-pages ul li:hover a {
+    color: #fff;
 }
