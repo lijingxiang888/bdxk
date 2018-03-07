@@ -22,7 +22,18 @@ figure {
     margin: 0;
     padding: 0;
 }
-
+.radius-all {
+    -moz-border-radius: 10px;
+    -o-border-radius:10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+.radius-top {
+    -moz-border-radius: 10px 10px 0 0;
+    -o-border-radius:10px 10px 0 0;
+    -webkit-border-radius: 10px 10px 0 0;
+    border-radius: 10px 10px 0 0;
+}
 /*主体main*/
 .main {
     width: 1024px;
@@ -44,21 +55,12 @@ figure {
     margin: 0 auto;
     margin-top: 15px;
     border: 1px solid #61bde4;
-    -moz-border-radius: 10px;
-    -o-border-radius:10px;
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
 }
 .top-news .top-news-title {
     width: 100%;
     height: 46px;
     background: url("../images/title-bg.png") no-repeat center;
     background-size: cover;
-    -moz-border-radius: 10px 10px 0 0;
-    -o-border-radius:10px 10px 0 0;
-    -webkit-border-radius: 10px 10px 0 0;
-    border-radius: 10px 10px 0 0;
-
 }
 .top-news .top-news-title span {
     display: inline-block;
@@ -115,10 +117,6 @@ figure {
     margin-top: 15px;
     color: #0074BC;
     border: 1px solid #61bde4;
-    -moz-border-radius: 10px;
-    -o-border-radius:10px;
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
     box-sizing: border-box;
     -moz-box-sizing:border-box;
 }
@@ -126,10 +124,6 @@ figure {
     width: 100%;
     height: 46px;
     background: url("../images/title-bg.png");
-    -moz-border-radius: 10px 10px 0 0;
-    -o-border-radius:10px 10px 0 0;
-    -webkit-border-radius: 10px 10px 0 0;
-    border-radius: 10px 10px 0 0;
 }
 .pic-news .pic-news-title span {
     display: inline-block;
@@ -156,7 +150,6 @@ figure {
 }
 
 .pic-news .pic-news-left {
-    float: left;
     width: 307px;
     height: 226px;
     margin: 20px 10px;
@@ -179,7 +172,6 @@ figure {
 }
 
 .pic-news .pic-news-right {
-    float: right;
     width: 650px;
     height: 264px;
     margin-top: 20px;
@@ -211,10 +203,7 @@ figure {
     -moz-box-sizing:border-box;
 }
 .kexiedongtai > div:nth-child(1) {
-    float: left;
-}
-.kexiedongtai > div:nth-child(2) {
-    float: right;
+    width: 620px;
 }
 .kexiedongtai .shikexie,
 .kexiedongtai .jicengkecie
