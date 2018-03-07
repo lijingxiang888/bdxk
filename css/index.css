@@ -7,10 +7,16 @@ body {
 }
 a {
     color: #000;
+    -o-transition: all .25s ease-out;
+    -moz-transition: all .25s ease-out;
+    -webkit-transition: all .25s ease-out;
+    transition: all .25s ease-out;
 }
 a:hover {
+    color: #ba2636;
+}
+a.more {
     color: #d73a3a;
-    text-decoration: underline;
 }
 figure {
     margin: 0;
@@ -73,11 +79,8 @@ figure {
 .top-news .top-news-more {
     text-align: right;
     padding: 8px 10px;
-    box-sizing: border-box;
     -moz-box-sizing:border-box;
-}
-.top-news .top-news-more a {
-    color: #d73a3a;
+    box-sizing: border-box;
 }
 
 .top-news .top-news-list ul  {
@@ -151,14 +154,7 @@ figure {
     vertical-align: middle;
 
 }
-.pic-news .pic-news-title i a,
-.kexiedongtai .shikexie-title i a,
-.jicengkecie .jicengkecie-title i a,
-.hudongpingtai .hudongpingtai-title i a,
-.kepuyuandi .kepuyuandi-title i a
-{
-    color: #d73a3a;
-}
+
 .pic-news .pic-news-left {
     float: left;
     width: 307px;
@@ -553,9 +549,6 @@ figure {
     text-overflow: clip;
     white-space: nowrap;
 }
-
-
-
 .youqinglianjie {
     width: 1000px;
     margin: 20px auto;
@@ -565,8 +558,9 @@ figure {
     -o-border-radius:10px;
     -webkit-border-radius: 10px;
     border-radius: 10px;
-    box-sizing: border-box;
     -moz-box-sizing:border-box;
+    box-sizing: border-box;
+
 }
 .youqinglianjie .youqinglianjie-list {
     padding: 10px 10px;

@@ -2,7 +2,11 @@ body {
     font-family: 'Microsoft Yahei', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased; /*chrome、safari*/
     -moz-osx-font-smoothing: grayscale;/*firefox*/
-    -webkit-user-select: none;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    -o-user-select:none;
+    user-select:none;
 }
 .header {
     width: 100%;
