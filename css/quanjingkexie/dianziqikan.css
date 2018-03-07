@@ -71,7 +71,7 @@ figure {
     background: url("../../images/content-title.png");
 }
 .main .content .content-title p{
-    font-family: 宋体;
+    font-family: SimSun;
     font-size: 16px;
 }
 .main .content .content-title span {
@@ -99,7 +99,7 @@ figure {
     margin: 0 auto;
     padding-left: 40px;
     font-size: 16px;
-    font-family: 宋体;
+    font-family: SimSun;
     border-bottom: 1px dotted #ccc;
 }
 .main .content .content-list p span.download-instruction {

@@ -46,7 +46,7 @@ figure {
     height: 50px;
     line-height: 50px;
     padding: 0 10px;
-    font-family: 宋体;
+    font-family: SimSun;
     font-size: 18px;
     font-weight: bold;
     border-bottom: 3px solid #b0c7d7;
@@ -73,7 +73,7 @@ figure {
     margin-left: 10px;
 }
 .main .content p {
-    font-family: 宋体;
+    font-family: SimSun;
     font-size: 16px;
 
 }

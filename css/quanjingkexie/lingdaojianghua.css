@@ -46,7 +46,7 @@ figure {
     height: 50px;
     line-height: 50px;
     padding: 0 10px;
-    font-family: 宋体;
+    font-family: SimSun;
     font-size: 18px;
     font-weight: bold;
     border-bottom: 3px solid #b0c7d7;
@@ -72,7 +72,7 @@ figure {
     background: url("../../images/content-title.png");
 }
 .main .content .content-title p{
-    font-family: 宋体;
+    font-family: SimSun;
     font-size: 16px;
 }
 .main .content .content-title span {
@@ -85,7 +85,7 @@ figure {
     width: 700px;
     margin: 0 auto;
     line-height: 30px;
-    font-family: 宋体;
+    font-family: SimSun;
     font-size: 16px;
     display: -webkit-box;
     -webkit-box-orient: vertical;

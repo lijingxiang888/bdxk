@@ -21,7 +21,7 @@ figure {
 .main {
     width: 1024px;
     margin: 0 auto;
-    font-family: 宋体;
+    font-family: simSun;
     background-color: #fff;
 }
 .ad-banner {
@@ -42,7 +42,6 @@ figure {
     -o-border-radius:10px;
     -webkit-border-radius: 10px;
     border-radius: 10px;
-    color: #0074BC;
 }
 .top-news .top-news-title {
     width: 100%;
@@ -66,6 +65,10 @@ figure {
 .top-news h2 {
     padding: 10px 24px;
     font-size: 38px;
+}
+.top-news h2 a {
+    display: block;
+    color: #0074BC;
 }
 .top-news .top-news-more {
     text-align: right;

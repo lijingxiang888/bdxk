@@ -2,7 +2,6 @@ body {
     font-family: 'Microsoft Yahei', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased; /*chrome、safari*/
     -moz-osx-font-smoothing: grayscale;/*firefox*/
-    background-color: #F1F1F1;
     -webkit-user-select: none;
 }
 .header {
@@ -11,4 +10,12 @@ body {
 .header img {
     width: 100%;
     height: 200px;
+}
+.main {
+    width: 1024px;
+    margin: 0 auto;
+}
+.main .preface img {
+    display: block;
+    margin: 0 auto;
 }
