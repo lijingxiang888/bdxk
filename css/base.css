@@ -1,0 +1,49 @@
+body {
+    font-family: 'Microsoft Yahei', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased; /*chrome、safari*/
+    -moz-osx-font-smoothing: grayscale;/*firefox*/
+    background-color: #F1F1F1;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    -o-user-select:none;
+    user-select:none;
+}
+
+/*首页公用样式*/
+a {
+    color: #000;
+    -o-transition: all .25s ease-out;
+    -moz-transition: all .25s ease-out;
+    -webkit-transition: all .25s ease-out;
+    transition: all .25s ease-out;
+}
+a:hover {
+    color: #ba2636;
+}
+a.more {
+    color: #d73a3a;
+}
+figure {
+    margin: 0;
+    padding: 0;
+}
+figcaption {
+    text-align: center;
+    overflow: hidden;
+    text-overflow: clip;
+    white-space: nowrap;
+
+}
+.radius-all {
+    -moz-border-radius: 10px;
+    -o-border-radius:10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+.radius-top {
+    -moz-border-radius: 10px 10px 0 0;
+    -o-border-radius:10px 10px 0 0;
+    -webkit-border-radius: 10px 10px 0 0;
+    border-radius: 10px 10px 0 0;
+}
