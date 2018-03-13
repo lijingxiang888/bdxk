@@ -47,6 +47,13 @@ figcaption {
     -webkit-border-radius: 10px 10px 0 0;
     border-radius: 10px 10px 0 0;
 }
+.title-bg {
+    background: -webkit-linear-gradient(#fff,#93e4ff); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#fff,#93e4ff); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#fff,#93e4ff); /* Firefox 3.6 - 15 */
+    background: linear-gradient(#fff,#93e4ff); /* 标准的语法 */
+}
+
 /*头部样式*/
 .header {
     width: 1024px;
