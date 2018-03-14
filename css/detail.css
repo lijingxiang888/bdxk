@@ -1,0 +1,80 @@
+.main {
+    width: 1024px;
+    margin: 0 auto;
+    padding: 20px 10px;
+    font-family: SimSun;
+    background-color: #fff;
+    box-sizing: border-box;
+    -moz-box-sizing:border-box;
+}
+.main .content {
+    width: 100%;
+    min-height: 700px;
+    padding: 0 25px;
+    border: 1px solid #61bde4;
+    -moz-border-radius: 10px;
+    -o-border-radius:10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.main .content .content-title {
+    height: 40px;
+    line-height: 36px;
+    margin-top: 5px;
+    padding: 12px 0;
+    font-size: 14px;
+}
+.main .content .content-title p{
+    font-size: 16px;
+}
+.main .content .content-title span {
+    margin-left: 10px;
+}
+.main .content .content-detail h2 {
+    width: 100%;
+    height: 120px;
+    line-height: 60px;
+    padding: 0 30px;
+    font-size: 28px;
+    font-weight: normal;
+    text-align: center;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.main .content .content-detail time {
+    display: block;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+}
+.main .content .content-detail hr {
+    width: 100%;
+    height: 2px;
+    margin: 10px auto;
+    background-color: #ccc;
+}
+.main .content .content-detail > p {
+    line-height: 36px;
+    padding: 10px 0;
+    text-indent: 2em;
+    font-size: 16px;
+    text-align: justify;
+}
+.main .content .content-detail > figure {
+    display: block;
+    max-width: 550px;
+    margin: 0 auto;
+}
+.main .content .content-detail > figure img {
+    width: 100%;
+    height: 100%;
+}
+.main .content .content-source p {
+    height: 60px;
+    font-size: 14px;
+    text-align: right;
+}
