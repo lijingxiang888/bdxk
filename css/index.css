@@ -429,7 +429,18 @@
     float: left;
     margin-right: 36px;
 }
-#content .content-right img {
+#content .content-right .play-btn {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -25px;
+    margin-top: -40px;
+}#content .content-right .content-btn img {
+     display: block;
+     width: 50px;
+     height: 50px;
+ }
+#content .content-right > figure > a > img {
     display: block;
     width: 126px;
     height: 97px;

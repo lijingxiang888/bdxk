@@ -37,7 +37,6 @@
     line-height: 60px;
     padding: 0 30px;
     font-size: 28px;
-    font-weight: normal;
     text-align: center;
     display: -webkit-box;
     -webkit-box-orient: vertical;
@@ -58,7 +57,7 @@
     background-color: #ccc;
 }
 .main .content .content-detail > p {
-    line-height: 36px;
+    line-height: 200%;
     padding: 10px 0;
     text-indent: 2em;
     font-size: 16px;

@@ -2,12 +2,13 @@ body {
     font-family: 'Microsoft Yahei', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased; /*chrome、safari*/
     -moz-osx-font-smoothing: grayscale;/*firefox*/
-    background-color: #F1F1F1;
+    background-color: #f1f1f1;
     -webkit-user-select:none;
     -moz-user-select:none;
     -ms-user-select:none;
     -o-user-select:none;
     user-select:none;
+    overflow-x: hidden;
 }
 
 /*首页公用样式*/
