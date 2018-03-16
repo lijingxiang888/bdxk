@@ -37,7 +37,6 @@
 .main .content {
     float: right;
     width: 725px;
-
     border: 1px solid #61bde4;
     box-sizing: border-box;
     -moz-border-radius: 10px;
@@ -85,7 +84,7 @@
     white-space:nowrap;
     text-overflow:ellipsis;
 }
-.main .content ul:nth-child(2) li span {
+.main .content ul:nth-child(2) li time {
     float: right;
     display: inline-block;
     margin-right: 15px;
