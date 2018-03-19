@@ -35,12 +35,16 @@
     color: #fff;
 }
 .top-news h2 {
+    width: 100%;
     padding: 10px 24px;
     font-size: 38px;
 }
 .top-news h2 a {
     display: block;
     color: #0074BC;
+    /*overflow: hidden;*/
+    /*text-overflow: ellipsis;*/
+    /*white-space: nowrap;*/
 }
 .top-news .top-news-more {
     text-align: right;
