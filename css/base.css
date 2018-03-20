@@ -25,7 +25,7 @@ a:hover {
 a.more {
     color: #d73a3a;
 }
-figure {
+figure,figcaption {
     margin: 0;
     padding: 0;
 }

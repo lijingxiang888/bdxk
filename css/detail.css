@@ -83,6 +83,7 @@
 }
 .main .content .content-source p {
     height: 60px;
+    line-height: 60px;
     font-size: 14px;
     text-align: right;
 }
