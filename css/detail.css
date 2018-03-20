@@ -67,6 +67,11 @@
     color: #ba2636;
     text-decoration: underline;
 }
+.main .content .content-detail > p > em {
+    font-family: KaiTi;
+    font-style: normal;
+    font-size: 18px
+}
 .main .content .content-detail > figure {
     display: block;
     max-width: 550px;

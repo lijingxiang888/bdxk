@@ -2,7 +2,7 @@
     width: 1024px;
     height: 157px;
     margin: 0 auto;
-    background: url("../images/bottom_bg.jpg");
+    background: url("../images/index/bottom-bg.jpg");
     overflow: hidden;
 
 }
@@ -17,5 +17,5 @@
     width: 80px;
     height: 80px;
     margin: 0 auto;
-    background: url("../images/mark.png");
+    background: url("../images/index/mark.png");
 }

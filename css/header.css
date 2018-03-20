@@ -10,13 +10,16 @@
     text-align: right;
     border-bottom: 1px solid #999;
     box-sizing: border-box;
-    background: url("../images/top_nav_bg1.gif");
+    background: -webkit-linear-gradient(#fff, #ccc);
+    background: -o-linear-gradient(#fff, #ccc);
+    background: -moz-linear-gradient(#fff, #ccc);
+    background: linear-gradient(#fff, #ccc);
 }
 .header-box {
     height: 220px;
     box-sizing: border-box;
     overflow: hidden;
-    background: url("../images/lan3.png");
+    background: url("../images/index/header-bg.png");
 }
 .logo-pic {
     float: left;
@@ -24,7 +27,7 @@
     height: 120px;
     margin-left: 38px;
     margin-top: 60px;
-    background: url("../images/logo.png");
+    background: url("../images/index/logo.png");
 }
 
 .header-box .web-name {
@@ -51,7 +54,7 @@
     height: 120px;
     margin-right: 30px;
     margin-top: 55px;
-    background: url("../images/kouhao.png");
+    background: url("../images/index/slogan.png");
 }
 nav ul {
     margin-top: 8px;
