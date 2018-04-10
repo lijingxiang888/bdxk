@@ -1,0 +1,123 @@
+body {
+    font-family: 'Microsoft Yahei', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased; /*chrome、safari*/
+    -moz-osx-font-smoothing: grayscale;/*firefox*/
+    background-color: #fff;
+    color: #000;
+    font-size: 14px;
+    line-height: 1.428571429;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    -o-user-select:none;
+    user-select:none;
+    overflow-x: hidden;
+}
+a {
+    color: #000;
+}
+a:hover {
+    text-decoration: underline;
+}
+.header {
+    width: 1343px;
+    height: 338px;
+    background: url("../images/hudongpingtai/kejigongzuozhezhijia/header-bg.png") no-repeat center;
+    background-size: cover;
+}
+.header .backend-system {
+    width: 100%;
+    height: 32px;
+    padding: 0 20px;
+    line-height: 30px;
+    text-align: right;
+    border-bottom: 1px solid #999;
+    box-sizing: border-box;
+    background: -webkit-linear-gradient(#fff, #ccc);
+    background: -o-linear-gradient(#fff, #ccc);
+    background: -moz-linear-gradient(#fff, #ccc);
+    background: linear-gradient(#fff, #ccc);
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.main {
+    width: 1115px;
+    margin: 0 auto;
+}
+.main > .title {
+    width: 100%;
+    height: 95px;
+}
+.main > .title:first-child {
+    background: url("../images/hudongpingtai/kejigongzuozhezhijia/title1.png") no-repeat;
+}
+.main > .title:nth-of-type(3) {
+    background: url("../images/hudongpingtai/kejigongzuozhezhijia/title2.png") no-repeat;
+}
+.container {
+    width: 970px;
+    margin: 30px auto;
+}
+.container .banner {
+    width: 485px;
+    height: 368px;
+}
+.container .banner img {
+    width: 100%;
+    height: 100%;
+}
+.container .content {
+    width: 463px;
+    height: 368px;
+}
+.container .content-title {
+    line-height: 29px;
+    border-bottom: 1px solid #d92526;
+}
+.container .content-title span {
+    display: inline-block;
+    width: 118px;
+    height: 29px;
+    line-height: 29px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bolder;
+    color: #fff;
+    background-color: #d92526;
+}
+.content ul {
+    padding-top: 8px;
+}
+.content ul li {
+    position: relative;
+    padding-left: 29px;
+    font-size: 16px;
+    line-height: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.content ul li::before {
+    content: "";
+    position: absolute;
+    top: 13px;
+    left: 10px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #d92526;
+}
+.content ul li:nth-of-type(1) a,.content ul li:nth-of-type(2) a {
+    color: #d92526;
+    font-weight: bold;
+}
+.container .content_2 {
+    width: 970px;
+}
+.container .content_2 ul {
+    width: 48%;
+}
