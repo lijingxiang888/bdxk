@@ -58,7 +58,9 @@
     margin-left: 10px;
 }
 .main .content ul:nth-child(2) {
+    height: 720px;
     padding: 10px 0;
+    overflow: hidden;
 }
 .main .content ul:nth-child(2) li {
     height: 36px;
@@ -91,37 +93,13 @@
     font-size: 14px;
 }
 .main .content .content-pages {
-    position: relative;
     width: 100%;
     padding: 20px 0;
-    bottom: 10px;
-    left: 0;
+    text-align: center;
 }
-.main .content .content-pages > span {
-    position: absolute;
-    height: 16px;
-    line-height: 16px;
-    padding: 3px 10px;
-    left: 197px;
-    top: 20px;
-    border: 1px solid #ccc;
-}
-.main .content .content-pages > span a {
-    color: #009DE0;
-}
-.main .content .content-pages > span:hover {
-    background-color: #009DE0;
-}
-.main .content .content-pages > span:hover a {
-    color: #fff;
-}
-.main .content .content-pages > span:last-child {
-    left: 447px;
-}
+
 .main .content .content-pages ul {
-    width: 182px;
-    margin: 0 auto;
-    overflow: hidden;
+    display: inline-block;
 }
 .main .content .content-pages ul li {
     float: left;
