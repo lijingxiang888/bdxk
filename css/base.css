@@ -3,11 +3,6 @@ body {
     -webkit-font-smoothing: antialiased; /*chrome、safari*/
     -moz-osx-font-smoothing: grayscale;/*firefox*/
     background-color: #f1f1f1;
-    -webkit-user-select:none;
-    -moz-user-select:none;
-    -ms-user-select:none;
-    -o-user-select:none;
-    user-select:none;
     overflow-x: hidden;
 }
 
@@ -21,6 +16,7 @@ a {
 }
 a:hover {
     color: #ba2636;
+    text-decoration: underline;
 }
 a.more {
     color: #d73a3a;
@@ -49,6 +45,9 @@ figcaption {
     border-radius: 10px 10px 0 0;
 }
 .title-bg {
+    filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=white,endcolorstr=lightskyblue,gradientType=0);/*IE浏览器渐变*/
+    -ms-filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=white,endcolorstr=lightskyblue,gradientType=0);
+    background: #93e4ff; /* 一些不支持背景渐变的浏览器 */
     background: -webkit-linear-gradient(#fff,#93e4ff); /* Safari 5.1 - 6.0 */
     background: -o-linear-gradient(#fff,#93e4ff); /* Opera 11.1 - 12.0 */
     background: -moz-linear-gradient(#fff,#93e4ff); /* Firefox 3.6 - 15 */

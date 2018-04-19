@@ -5,18 +5,10 @@
     <title>保定市科学技术协会-组织机构</title>
     <meta name="keywords" content="保定科协,保定市科协,保定市科学技术协会,保定市科协网,保定市科学技术协会网,全景科协,组织机构">
     <meta name="description" content="保定市科学技术协网作为保定市科学技术协会门户网站,为您提供保定市科协公务信息及其他相关信息,网址:www.bdkxw.org.cn">
-
     <link rel="stylesheet" href="../css/reset.min.css">
     <link rel="stylesheet" href="../css/base.css">
     <!--[if lt IE 9]>
     <script type="text/javascript" src="../js/html5.min.js"></script>
-    <![endif]-->
-    <!--[if lt IE 10]>
-    <style>
-        .main .content .content-title {
-            background: url("../images/public/content-title.png");
-        }
-    </style>
     <![endif]-->
     <style>
         .main {
@@ -91,18 +83,33 @@
             color: #fff;
             background: url("../images/quanjingkexie/branch-bg.png");
         }
-        .main .content .branch > p {
+        .main .content .branch-content > p {
             padding: 10px 0;
-            font-size: 16px;
+            font-size: 15px;
+            line-height: 1.5em;
+            text-indent: 2em;
         }
-        .main .content .branch > ul li {
+        .main .content .branch-content > ul li {
             height: 30px;
             line-height: 30px;
             padding: 0 12px;
             font-size: 16px;
         }
-        .main .content .branch > ul li span {
+        .main .content .branch-content > ul li span {
             margin-right: 50px;
+        }
+        .main .content .branch-content > h2 {
+            padding: 10px 0;
+            text-align: center;
+            font-size: 20px;
+        }
+        .main .content .branch-content > h3 {
+            text-align: center;
+        }
+        .main .content .branch-content > a {
+            display: block;
+            text-align: right;
+            font-size: 15px;
         }
     </style>
 </head>
@@ -130,10 +137,10 @@
             <li><a href="kexiejianjie.html">全景科协</a></li>
             <li><a href="../xuehuixueshu/gongzuodongtai.html">学会学术</a></li>
             <li><a href="../kexuepuji/kepuhuodong.html">科学普及</a></li>
-            <li><a href="javascript:;">创新驱动</a></li>
+            <li><a href="../chuangxinqudong/jianghuajingshen.html">创新驱动</a></li>
             <li><a href="../shenhuagaige/gaigegaikuang.html">深化改革</a></li>
-            <li><a href="javascript:;">互动平台</a></li>
-            <li><a href="javascript:;">党的建设</a></li>
+            <li><a href="../hudongpingtai/hudongpingtai.html">互动平台</a></li>
+            <li><a href="../dangdejianshe/zhengcefagui.html">党的建设</a></li>
         </ul>
     </nav>
 </header>
@@ -159,46 +166,102 @@
             <p>当前位置：
                 <span><a href="../index.html">首页>></a></span>
                 <span><a href="kexiejianjie.html">全景科协>></a></span>
-                <span><a href="shizhixuehui.html">市直学会（学会联合体）>></a></span>
+                <span><a href="shizhixuehui.html">市直学会（学会联合体）</a></span>
             </p>
         </div>
         <div class="branch">
             <div class="branch-title">学会名录</div>
-            <p>（A:理科   B:工科   C:农科   D:医科   E:交叉学科  F:团体会员）</p>
-            <ul>
-                <li>
-                    <span>代号</span>
-                    <span>名称</span>
-                </li>
-                <li>
-                    <span>A-1</span>
-                    <span>保定市数学会</span>
-                </li>
-                <li>
-                    <span>A-2</span>
-                    <span>保定市物理学会</span>
-                </li>
-                <li>
-                    <span>A-3</span>
-                    <span>保定市化学会</span>
-                </li>
-                <li>
-                    <span>A-4</span>
-                    <span>保定市气象学会</span>
-                </li>
-                <li>
-                    <span>A-5</span>
-                    <span>保定市地质学会</span>
-                </li>
-                <li>
-                    <span>A-6</span>
-                    <span>保定市心理卫生学会</span>
-                </li>
-            </ul>
+            <div class="branch-content">
+                <p>（A:理科   B:工科   C:农科   D:医科   E:交叉学科  F:团体会员）</p>
+                <ul>
+                    <li>
+                        <span>代号</span>
+                        <span>名称</span>
+                    </li>
+                    <li>
+                        <span>A-1</span>
+                        <span>保定市数学会</span>
+                    </li>
+                    <li>
+                        <span>A-2</span>
+                        <span>保定市物理学会</span>
+                    </li>
+                    <li>
+                        <span>A-3</span>
+                        <span>保定市化学会</span>
+                    </li>
+                    <li>
+                        <span>A-4</span>
+                        <span>保定市气象学会</span>
+                    </li>
+                    <li>
+                        <span>A-5</span>
+                        <span>保定市地质学会</span>
+                    </li>
+                    <li>
+                        <span>A-6</span>
+                        <span>保定市心理卫生学会</span>
+                    </li>
+                    <li>
+                        <span>A-7</span>
+                        <span>保定市心理健康研究会</span>
+                    </li>
+                    <li>
+                        <span>A-8</span>
+                        <span>保定市幸福心理学会</span>
+                    </li>
+                    <li>
+                        <span>A-9</span>
+                        <span>保定市沙盘游戏与箱庭疗法技术学会</span>
+                    </li>
+                    <li>
+                        <span>A-10</span>
+                        <span>保定市环境科学会</span>
+                    </li>
+                    <li>
+                        <span>A-11</span>
+                        <span>保定市生物科学教学研究会</span>
+                    </li>
+                </ul>
+                <a href="javascript:;">查看更多>></a>
+            </div>
         </div>
         <div class="branch">
             <div class="branch-title">政策法规</div>
-            
+            <div class="branch-content">
+                <h2>（一） 社会团体登记管理条例</h2>
+                <p style="text-align: center">（2016年2月6日修正版）</p>
+                <p>（1998年10月25日国务院令第250号发布根据2016年02月06日国务院令第666号《国务院关于修改部分行政法规的决定》修订）</p>
+                <h3>第一章   总  则</h3>
+                <p>
+                    第一条  为了保障公民的结社自由，维护社会团体的合法权益，加强对社会团体的登记管理，促进社会主义物质文明、精神文明建设，制定本条例。
+                </p>
+                <p>
+                    第二条  本条例所称社会团体，是指中国公民自愿组成，为实现会员共同意愿，按照其章程开展活动的非营利性社会组织。<br>国家机关以外的组织可以作为单位会员加入社会团体。
+                </p>
+                <p>
+                    第三条  成立社会团体，应当经其业务主管单位审查同意，并依照本条例的规定进行登记。<br>社会团体应当具备法人条件。
+                </p>
+                <p>
+                    下列团体不属于本条例规定登记的范围：<br>
+                    （一）参加中国人民政治协商会议的人民团体；<br>
+                    （二）由国务院机构编制管理机关核定，并经国务院批准免于登记的团体；<br>
+                    （三）机关、团体、企业事业单位内部经本单位批准成立、在本单位内部活动的团体。
+                </p>
+                <p>
+                    第四条  社会团体必须遵守宪法、法律、法规和国家政策，不得反对宪法确定的基本原则，不得危害国家的统一、安全和民族的团结，不得损害国家利益、社会公共利益以及其他组织和公民的合法权益，不得违背社会道德风尚。<br>社会团体不得从事营利性经营活动。
+                </p>
+                <p>
+                    第五条  国家保护社会团体依照法律、法规及其章程开展活动，任何组织和个人不得非法干涉。
+                </p>
+                <p>
+                    第六条  国务院民政部门和县级以上地方各级人民政府民政部门是本级人民政府的社会团体登记管理机关（以下简称登记管理机关）。<br>
+                    国务院有关部门和县级以上地方各级人民政府有关部门、国务院或者县级以上地方各级人民政府授权的组织，是有关行业、学科或者业务范围内社会团体的业务主管单位（以下简称业务主管单位）。<br>
+                    法律、行政法规对社会团体的监督管理另有规定的，依照有关法律、行政法规的规定执行。
+
+                </p>
+                <a href="javascript:;">查看更多>></a>
+            </div>
         </div>
     </div>
 
@@ -207,16 +270,16 @@
 
 <!--footer begin-->
 <footer class="footer">
+    <p>主办单位:保定市科学技术协会　运营及技术支持：<a href="http://shenzhuwang.com/index.html" target="_blank">申注网</a></p>
 
+    <p>建议使用IE 9.0及以上，分辨率1024*768以上浏览本网站</p>
+
+    <p>冀ICP备XXXXXXX</p>
+
+    <p class="mark"></p>
 </footer>
 <!--footer end-->
 <script src="../js/jquery1.42.min.js"></script>
-<script>
-    /*导入模块*/
-    $(function () {
-        $(".footer").load("../footer.html");
-        $("html,body").animate({"scrollTop":"230px"},10)
-    });
-</script>
+<script src="../js/scrollTop.js"></script>
 </body>
 </html>
