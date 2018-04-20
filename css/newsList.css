@@ -121,3 +121,70 @@
 .main .content .content-pages ul li:hover a {
     color: #fff;
 }
+
+/*留言板样式*/
+.content .interflow {
+    padding: 10px 5px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: justify;
+    border-bottom: 1px dashed #ccc;
+}
+.content .interflow .ask {
+    font-weight: bold;
+}
+.content .interflow .ask span:first-child {
+    display: inline-block;
+    width: 23px;
+    height: 27px;
+    background: url("../images/hudongpingtai/kejigongzuozhezhijia/ask.png");
+}
+.content .interflow .answer span:first-child {
+    display: inline-block;
+    width: 23px;
+    height: 27px;
+    background: url("../images/hudongpingtai/kejigongzuozhezhijia/answer.png");
+}
+.content .interflow .ask span:last-child,
+.content .interflow .answer span:last-child {
+    color: #0064ff;
+    font-weight: bold;
+}
+.content .board {
+    font-size: 15px;
+}
+.content .board > p {
+    height: 43px;
+    line-height: 43px;
+    padding: 0 10px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #aeaeae;
+}
+.content .board form {
+    padding: 10px 5px;
+}
+.content .board input {
+    width: 160px;
+    padding: 8px 5px;
+    margin-bottom: 20px;
+}
+.content .board textarea {
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.content .board button {
+    display: block;
+    width: 138px;
+    height: 42px;
+    margin: 10px auto;
+    border: 1px solid #003e9c;
+    background: #4881d8;
+    color: #FFF;
+    border-radius: 4px;
+    cursor: pointer;
+}
