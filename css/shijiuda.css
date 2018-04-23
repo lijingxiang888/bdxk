@@ -6,11 +6,6 @@ body {
     color: #000;
     font-size: 14px;
     line-height: 1.428571429;
-    -webkit-user-select:none;
-    -moz-user-select:none;
-    -ms-user-select:none;
-    -o-user-select:none;
-    user-select:none;
     overflow-x: hidden;
 }
 a {
@@ -219,9 +214,9 @@ a:hover {
 }
 .container .content_3 ul ~ div img ~ div {
     float: right;
-    width: 50%;
+    width: 468px;
     height: 284px;
-    padding-right: 10px;
+    margin-right: 10px;
     text-align: right;
     overflow: hidden;
 }
@@ -241,10 +236,12 @@ a:hover {
     color: #414141;
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 6;
+    -webkit-line-clamp: 4;
     overflow: hidden;
 }
 .container .content_3 ul ~ div a {
+    display: inline-block;
+    margin: 15px 0;
     font-size: 16px;
 }
 .container .content_3 ul ~ div.active2 {
