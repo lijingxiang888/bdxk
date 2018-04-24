@@ -305,18 +305,18 @@
     background-size: cover;
 }
 .all-kexie ul.blue-bg {
-    margin-top: 20px;
+    margin-top: 4px;
     background-color: #c0e3f5;
 }
 .all-kexie ul.yellow-bg {
-    margin-top: 14px;
+    margin-top: 1px;
     background-color: #ffe4d2;
 }
 .all-kexie li {
-    height: 50px;
-    line-height: 50px;
+    height: 30px;
+    line-height: 30px;
     padding: 0 10px;
-    font-size: 16px;
+    font-size: 15px;
 }
 .all-kexie li i {
     display: inline-block;
@@ -328,8 +328,8 @@
     vertical-align: middle;
 }
 .all-kexie ul.yellow-bg li {
-    height: 47px;
-    line-height: 47px;
+    height: 30px;
+    line-height: 30px;
 }
 .hudongpingtai {
     width: 1000px;
