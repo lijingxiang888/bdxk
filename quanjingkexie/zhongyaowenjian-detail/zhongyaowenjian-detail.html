@@ -60,7 +60,7 @@
             <h2>
                 18年保定科协深改任务分解表（终）
             </h2>
-            <time datetime="2018-03-14">2018年03月14日 22:15</time>
+            <time datetime="2018-03-14">2018年03月14日</time>
             <hr>
             <p>
                 根据年度工作部署和人事安排，在去年推进改革的基础上，现将2018年《保定市科协系统深化改革实施方案主要任务清单》调整修订如下，请各位主席、机关各部门、科学宫、科技活动（咨询）中心结合自身工作实际认真研究讨论，3月10日前望提出宝贵意见。
@@ -90,32 +90,6 @@
 </footer>
 <!--footer end-->
 <script src="../../js/jquery1.42.min.js"></script>
-<script src="../../js/animate.js"></script>
-<script>
-    /*导入模块*/
-    $(function () {
-        /*检测当前浏览器是否支持 a 标签的download属性*/
-        var isSupportDownload = 'download' in document.createElement('a');
-
-        if ( !isSupportDownload ) { //如果不支持
-            var $link = $('a'); //得到页面上所有的a标签
-
-            $link.each(function() { //循环a标签，找到页面上带有download属性的a标签
-                var $download = $(this).attr('download');
-
-                if (typeof $download !== typeof undefined && $download !== false) {
-                    var $el = $('<span>').addClass('download-instruction').text('如需下载请右击并选择"目标另存为"');
-                    $el.insertAfter($(this)).hide();
-                    $(this).hover(function () {
-                        $el.show();
-                    },function () {
-                        $el.hide();
-                    })
-                }
-
-            });
-        }
-    });
-</script>
+<script src="../../js/tip.js"></script>
 </body>
 </html>

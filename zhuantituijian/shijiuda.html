@@ -222,42 +222,35 @@
     });
    // 轮播图
     $(function () {
-        // 获取操作元素
         var $outer = $('#outer');
         var $wrap = $('#wrap');
         var $focus = $('#focus');
         var $focusList = $('#focus li');
         var $oImgs = $('#outer img');
 
-        // 记录当前图片索引
         $outer.step = 0;
-        // 控制自动轮播的定时器
         $outer.timer = setInterval(autoMove, 5000);
-        // 保存最后一张索引
         $outer.lastInd = $oImgs.last().index();
 
         // 轮播方法
         function autoMove(n) {
-            // 如果n传递值 就 让 outer.step = n 否则 照常 outer.step++
             !isNaN(n) ? $outer.step = n : $outer.step++;
             $outer.step > $outer.lastInd ? $outer.step = 0 : null;
-            // 图片渐变控制
             $oImgs.stop().eq($outer.step).fadeIn(300).siblings().fadeOut();
-            // 焦点同步控制
             $focusList.eq($outer.step).addClass('selected').siblings().removeClass('selected');
         }
 
-        $outer.hover(function () { // 滑入 清除动画
+        $outer.hover(function () {
             clearInterval($outer.timer);
-        }, function () {  // 滑出 开始动画
+        }, function () {
             $outer.timer = setInterval(autoMove, 2000);
         });
 
         function bindSelectEvent() {
             // 焦点点击事件
-            $focusList.each(function () { // 给每个焦点绑定点击事件
+            $focusList.each(function () {
                 $(this).click(function () {
-                    autoMove($(this).index()); // 执行autoMove时将 当前焦点索引传递进去
+                    autoMove($(this).index());
                 });
             });
         }

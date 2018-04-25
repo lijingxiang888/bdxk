@@ -72,11 +72,6 @@
     font-style: normal;
     font-size: 18px
 }
-.main .content .content-detail > figure {
-    display: block;
-    max-width: 550px;
-    margin: 0 auto;
-}
 .main .content .content-detail > figure.person {
     float: left;
     width: 249px;
@@ -95,8 +90,10 @@
     font-size: 25px;
 }
 .main .content .content-detail > figure img {
-    width: 100%;
-    height: 100%;
+    display: block;
+    max-width: 550px;
+    height: auto;
+    margin: 0 auto;
 }
 .main .content .content-source p {
     height: 60px;
