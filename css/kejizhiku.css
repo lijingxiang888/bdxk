@@ -1,0 +1,186 @@
+body {
+    font-family: 'Microsoft Yahei', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased; /*chrome、safari*/
+    -moz-osx-font-smoothing: grayscale;/*firefox*/
+    background-color: #fff;
+    color: #000;
+    font-size: 14px;
+    line-height: 1.428571429;
+    overflow-x: hidden;
+}
+a {
+    color: #fff;
+    -moz-transition: all .25s ease-out;
+    -webkit-transition: all .25s ease-out;
+    -o-transition: all .25s ease-out;
+    transition: all .25s ease-out;
+}
+a:hover {
+    color: #ba2636;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.header {
+    width: 1343px;
+    height: 630px;
+    background: url("../images/hudongpingtai/kejizhiku/header-bg.png") no-repeat center;
+    background-size: cover;
+}
+.header .backend-system {
+    width: 100%;
+    height: 32px;
+    padding: 0 20px;
+    line-height: 30px;
+    text-align: right;
+    border-bottom: 1px solid #999;
+    box-sizing: border-box;
+    filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=white,endcolorstr=darkgray,gradientType=0);/*IE浏览器渐变*/
+    -ms-filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=white,endcolorstr=darkgray,gradientType=0);
+    background: #a9a9a9;
+    background: -webkit-linear-gradient(#fff, #a9a9a9);
+    background: -o-linear-gradient(#fff, #a9a9a9);
+    background: -moz-linear-gradient(#fff, #a9a9a9);
+    background: linear-gradient(#fff, #a9a9a9);
+}
+.header .search {
+    position: fixed;
+    right: 20px;
+    top: 160px;
+    width: 153px;
+    height: 163px;
+    background: url("../images/hudongpingtai/kejizhiku/search.png");
+    z-index: 99;
+    cursor: pointer;
+}
+.header .search a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.header .weixin {
+    position: absolute;
+    right: 160px;
+    top: 350px;
+    width: 120px;
+    height: 120px;
+    color: #fff;
+    text-align: center;
+}
+
+.nav {
+    width: 100%;
+    height: 65px;
+    line-height: 65px;
+    margin: 15px 0;
+    padding: 0 159px;
+    background-color: #2d87d0;
+}
+.nav a {
+    font-size: 15px;
+    margin-right: 20px;
+}
+.nav a.active {
+    padding: 3px 14px;
+    border: 1px solid #fff;
+}
+.main {
+    width: 1024px;
+    height: 550px;
+    margin: 0 auto;
+}
+.main .news {
+    width: 43%;
+    padding: 0 10px;
+    box-sizing: border-box;
+
+}
+.news > p {
+    padding: 5px 0;
+    font-size: 22px;
+    color: #2563af;
+}
+.news > ul {
+    height: 240px;
+    overflow: hidden;
+}
+.news > ul li {
+    height: 30px;
+    line-height: 30px;
+    font-family: SimSun;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.news > ul li a {
+    font-size: 16px;
+    color: #666;
+    -moz-transition: all .25s ease-out;
+    -webkit-transition: all .25s ease-out;
+    -o-transition: all .25s ease-out;
+    transition: all .25s ease-out;
+}
+.news > ul li a:hover {
+    color: #ba2636;
+}
+.news > .more {
+    display: block;
+    padding: 5px 0;
+    color: #2563af;
+    text-align: right;
+}
+.main .sort {
+    width: 50%;
+}
+.sort > ul li {
+    float: left;
+    width: 124px;
+    height: 449px;
+    margin-right: 5px;
+}
+.sort > ul li:last-child {
+    margin-right: 0;
+}
+.sort > ul li img {
+    -moz-transition: all .25s ease-out;
+    -webkit-transition: all .25s ease-out;
+    -o-transition: all .25s ease-out;
+    transition: all .25s ease-out;
+}
+.sort > ul li img:hover {
+    -ms-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.footer {
+    width: 100%;
+    height: 120px;
+    padding-top: 20px;
+    background-color: #728ba9;
+}
+.footer > div {
+    width: 970px;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.footer > div p {
+    margin: 15px auto;
+    font-size: 14px;
+    color: #fff;
+}
+/*兼容 1024px 设备以下分辨率*/
+@media all and (max-width:1024px){
+
+    .header {
+        width: 1007px;
+    }
+    .main {
+        width: 1007px;
+    }
+}

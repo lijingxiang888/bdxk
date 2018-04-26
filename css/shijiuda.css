@@ -28,10 +28,13 @@ a:hover {
     text-align: right;
     border-bottom: 1px solid #999;
     box-sizing: border-box;
-    background: -webkit-linear-gradient(#fff, #ccc);
-    background: -o-linear-gradient(#fff, #ccc);
-    background: -moz-linear-gradient(#fff, #ccc);
-    background: linear-gradient(#fff, #ccc);
+    filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=white,endcolorstr=darkgray,gradientType=0);/*IE浏览器渐变*/
+    -ms-filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=white,endcolorstr=darkgray,gradientType=0);
+    background: #a9a9a9;
+    background: -webkit-linear-gradient(#fff, #a9a9a9);
+    background: -o-linear-gradient(#fff, #a9a9a9);
+    background: -moz-linear-gradient(#fff, #a9a9a9);
+    background: linear-gradient(#fff, #a9a9a9);
 }
 .fl {
     float: left;
