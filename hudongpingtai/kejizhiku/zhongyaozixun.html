@@ -20,16 +20,6 @@
             line-height: 1.428571429;
             overflow-x: hidden;
         }
-        a {
-            color: #fff;
-            -moz-transition: all .25s ease-out;
-            -webkit-transition: all .25s ease-out;
-            -o-transition: all .25s ease-out;
-            transition: all .25s ease-out;
-        }
-        a:hover {
-            color: #ba2636;
-        }
         .fl {
             float: left;
         }
@@ -55,6 +45,9 @@
             background: -o-linear-gradient(#fff, #a9a9a9);
             background: -moz-linear-gradient(#fff, #a9a9a9);
             background: linear-gradient(#fff, #a9a9a9);
+        }
+        .header .backend-system a {
+            color: #000;
         }
         .header .kjzk-logo {
             width: 367px;
@@ -88,8 +81,16 @@
             background-color: #2d87d0;
         }
         .nav a {
+            color: #fff;
             font-size: 15px;
             margin-right: 20px;
+            -moz-transition: all .25s ease-out;
+            -webkit-transition: all .25s ease-out;
+            -o-transition: all .25s ease-out;
+            transition: all .25s ease-out;
+        }
+        .nav a:hover {
+            color: #ba2636;
         }
         .nav a.active {
             padding: 3px 14px;
@@ -122,22 +123,40 @@
             background-color: #ffa200;
         }
         .content > ul {
-            margin: 15px 0;
-            padding: 0 100px;
+            width: 824px;
+            height: 460px;
+            margin: 15px auto;
+            overflow: hidden;
 
         }
         .content > ul li {
+            width: 100%;
             height: 46px;
             line-height: 46px;
+            overflow: hidden;
         }
         .content > ul li a {
+            display: inline-block;
+            width: 680px;
             color: #666;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            -moz-transition: all .25s ease-out;
+            -webkit-transition: all .25s ease-out;
+            -o-transition: all .25s ease-out;
+            transition: all .25s ease-out;
+        }
+        .content > ul li a:hover {
+            color: #ba2636;
+            text-decoration: underline;
         }
         .content > ul li time {
             float: right;
         }
 
         .pagination {
+            margin: 10px;
             text-align: center;
         }
         .pagination ul {
@@ -145,11 +164,26 @@
         }
         .pagination ul li {
             float: left;
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+        }
+        .pagination ul li:first-child,
+        .pagination ul li:last-child {
+            width: 50px;
+            height: 30px;
+        }
+        .pagination ul li:hover {
+            background-color: #728ba9;
+        }
+        .pagination ul li:hover a {
+            color: #fff;
         }
         .pagination ul li a {
+            display: block;
             color: #666;
         }
-
 
         .footer {
             width: 100%;
@@ -193,8 +227,8 @@
 <!--nav begin-->
 <nav class="nav">
     <a href="kejizhiku.html">首页</a>
-    <a class="active" href="zhikujieshao.html">智库介绍</a>
-    <a href="zhongyaozixun.html">重要资讯</a>
+    <a href="zhikujieshao.html">智库介绍</a>
+    <a class="active" href="zhongyaozixun.html">重要资讯</a>
 </nav>
 <!--nav end-->
 
@@ -202,14 +236,14 @@
 <div class="main">
     <p class="nav-bread">当前位置：
         <a href="kejizhiku.html">科技智库>></a>
-        <a href="zhikujieshao.html">智库介绍</a>
+        <a href="zhongyaozixun.html">重要资讯</a>
     </p>
     <hr>
     <div class="content">
         <h2><strong>重要资讯</strong></h2>
         <ul>
             <li>
-                <a href="javascript:;">专家热议智能制造——工业互联网是必由之路</a>
+                <a href="zhongyaozixun-detail.html">专家热议智能制造——工业互联网是必由之路专家热议智能制造——工业互联网是必由之路专家热议智能制造——工业互联网是必由之路</a>
                 <time datetime="2018-04-25">2018-04-25</time>
             </li>
             <li>

@@ -8,16 +8,6 @@ body {
     line-height: 1.428571429;
     overflow-x: hidden;
 }
-a {
-    color: #fff;
-    -moz-transition: all .25s ease-out;
-    -webkit-transition: all .25s ease-out;
-    -o-transition: all .25s ease-out;
-    transition: all .25s ease-out;
-}
-a:hover {
-    color: #ba2636;
-}
 .fl {
     float: left;
 }
@@ -45,6 +35,9 @@ a:hover {
     background: -o-linear-gradient(#fff, #a9a9a9);
     background: -moz-linear-gradient(#fff, #a9a9a9);
     background: linear-gradient(#fff, #a9a9a9);
+}
+.header .backend-system a {
+    color: #000;
 }
 .header .search {
     position: fixed;
@@ -82,6 +75,14 @@ a:hover {
 .nav a {
     font-size: 15px;
     margin-right: 20px;
+    color: #fff;
+    -moz-transition: all .25s ease-out;
+    -webkit-transition: all .25s ease-out;
+    -o-transition: all .25s ease-out;
+    transition: all .25s ease-out;
+}
+.nav a:hover {
+    color: #ba2636;
 }
 .nav a.active {
     padding: 3px 14px;

@@ -26,11 +26,26 @@
     <div class="container clear">
         <div id="outer" class="fl">
             <div id="wrap">
-                <img src="../images/zhuantituijian/shijiuda/index/banner1.png" alt="习近平代表第十八届中央委员会向大会作报告">
-                <img src="../images/zhuantituijian/shijiuda/index/banner2.png" alt="中国共产党第十九次全国代表大会在北京人民大会堂隆重开幕">
-                <img src="../images/zhuantituijian/shijiuda/index/banner3.png" alt="习近平同志参加党的十九大贵州省代表团讨论">
-                <img src="../images/zhuantituijian/shijiuda/index/banner4.png" alt="中国共产党第十九次全国代表大会闭幕会现场">
-                <img src="../images/zhuantituijian/shijiuda/index/banner5.png" alt="十九届中央政治局常委同中外记者见面">
+                <a href="javascript:;">
+                    <img src="../images/zhuantituijian/shijiuda/index/banner1.png" alt="习近平代表第十八届中央委员会向大会作报告">
+                    <p class="pic-title">习近平代表第十八届中央委员会向大会作报告</p>
+                </a>
+                <a href="javascript:;">
+                    <img src="../images/zhuantituijian/shijiuda/index/banner2.png" alt="中国共产党第十九次全国代表大会在北京人民大会堂隆重开幕">
+                    <p class="pic-title">中国共产党第十九次全国代表大会在北京人民大会堂隆重开幕</p>
+                </a>
+                <a href="javascript:;">
+                    <img src="../images/zhuantituijian/shijiuda/index/banner3.png" alt="习近平同志参加党的十九大贵州省代表团讨论">
+                    <p class="pic-title">习近平同志参加党的十九大贵州省代表团讨论</p>
+                </a>
+                <a href="javascript:;">
+                    <img src="../images/zhuantituijian/shijiuda/index/banner4.png" alt="中国共产党第十九次全国代表大会闭幕会现场">
+                    <p class="pic-title">中国共产党第十九次全国代表大会闭幕会现场</p>
+                </a>
+                <a href="javascript:;">
+                    <img src="../images/zhuantituijian/shijiuda/index/banner5.png" alt="十九届中央政治局常委同中外记者见面">
+                    <p class="pic-title">十九届中央政治局常委同中外记者见面</p>
+                </a>
             </div>
             <ul id="focus">
                 <li class="selected"></li>
@@ -226,17 +241,17 @@
         var $wrap = $('#wrap');
         var $focus = $('#focus');
         var $focusList = $('#focus li');
-        var $oImgs = $('#outer img');
-
+        // var $oImgs = $('#outer img');
+        var $oImgsbox = $('#outer a');
         $outer.step = 0;
         $outer.timer = setInterval(autoMove, 5000);
-        $outer.lastInd = $oImgs.last().index();
+        $outer.lastInd = $oImgsbox.last().index();
 
         // 轮播方法
         function autoMove(n) {
             !isNaN(n) ? $outer.step = n : $outer.step++;
             $outer.step > $outer.lastInd ? $outer.step = 0 : null;
-            $oImgs.stop().eq($outer.step).fadeIn(300).siblings().fadeOut();
+            $oImgsbox.stop().eq($outer.step).fadeIn(300).siblings().fadeOut();
             $focusList.eq($outer.step).addClass('selected').siblings().removeClass('selected');
         }
 
