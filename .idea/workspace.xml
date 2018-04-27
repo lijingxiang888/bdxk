@@ -3,14 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="3a7d2f6b-79fe-483c-8a0a-189533cdd8ef" name="Default" comment="2018/4/16">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/css/kejizhiku.css" afterPath="$PROJECT_DIR$/css/kejizhiku.css" />
       <change beforePath="$PROJECT_DIR$/css/shijiuda.css" afterPath="$PROJECT_DIR$/css/shijiuda.css" />
       <change beforePath="$PROJECT_DIR$/hudongpingtai/kejizhiku/kejizhiku.html" afterPath="$PROJECT_DIR$/hudongpingtai/kejizhiku/kejizhiku.html" />
-      <change beforePath="$PROJECT_DIR$/hudongpingtai/kejizhiku/zhikujieshao.html" afterPath="$PROJECT_DIR$/hudongpingtai/kejizhiku/zhikujieshao.html" />
       <change beforePath="$PROJECT_DIR$/hudongpingtai/kejizhiku/zhongyaozixun.html" afterPath="$PROJECT_DIR$/hudongpingtai/kejizhiku/zhongyaozixun.html" />
-      <change beforePath="$PROJECT_DIR$/zhuantituijian/quanweijiedu/detail.html" afterPath="$PROJECT_DIR$/zhuantituijian/quanweijiedu/detail.html" />
+      <change beforePath="$PROJECT_DIR$/images/zhuantituijian/shijiuda/index/banner1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/zhuantituijian/shijiuda/index/banner2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/zhuantituijian/shijiuda/index/banner3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/zhuantituijian/shijiuda/index/banner4.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/zhuantituijian/shijiuda/index/banner5.png" afterPath="" />
       <change beforePath="$PROJECT_DIR$/zhuantituijian/shijiuda.html" afterPath="$PROJECT_DIR$/zhuantituijian/shijiuda.html" />
-      <change beforePath="$PROJECT_DIR$/zhuantituijian/zhongyangjingsheng/detail.html" afterPath="$PROJECT_DIR$/zhuantituijian/zhongyangjingsheng/detail.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,32 +24,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="shijiuda.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/zhuantituijian/shijiuda.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2033">
-              <caret line="246" column="25" lean-forward="true" selection-start-line="246" selection-start-column="25" selection-end-line="246" selection-end-column="25" />
-              <folding>
-                <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="e#11427#11820#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="shijiuda.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/shijiuda.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="100" column="35" lean-forward="false" selection-start-line="100" selection-start-column="35" selection-end-line="100" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -122,15 +98,15 @@
         <option value="$PROJECT_DIR$/kepuyuandi/keputuwen.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/hudongpingtai/hudongpingtai.html" />
-        <option value="$PROJECT_DIR$/hudongpingtai/kejizhiku/zhongyaozixun.html" />
         <option value="$PROJECT_DIR$/hudongpingtai/kejizhiku/zhikujieshao.html" />
         <option value="$PROJECT_DIR$/css/kejizhiku.css" />
-        <option value="$PROJECT_DIR$/hudongpingtai/kejizhiku/kejizhiku.html" />
         <option value="$PROJECT_DIR$/hudongpingtai/kejizhiku/zhongyaozixun-detail.html" />
         <option value="$PROJECT_DIR$/zhuantituijian/quanweijiedu/detail.html" />
         <option value="$PROJECT_DIR$/zhuantituijian/zhongyangjingsheng/detail.html" />
-        <option value="$PROJECT_DIR$/zhuantituijian/shijiuda.html" />
+        <option value="$PROJECT_DIR$/hudongpingtai/kejizhiku/kejizhiku.html" />
+        <option value="$PROJECT_DIR$/hudongpingtai/kejizhiku/zhongyaozixun.html" />
         <option value="$PROJECT_DIR$/css/shijiuda.css" />
+        <option value="$PROJECT_DIR$/zhuantituijian/shijiuda.html" />
       </list>
     </option>
   </component>
@@ -188,28 +164,6 @@
               <item name="bdxk" type="b2602c69:ProjectViewProjectNode" />
               <item name="bdxk" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="bdxk" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bdxk" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bdxk" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bdxk" type="462c0819:PsiDirectoryNode" />
-              <item name="zhuantituijian" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bdxk" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bdxk" type="462c0819:PsiDirectoryNode" />
-              <item name="zhuantituijian" type="462c0819:PsiDirectoryNode" />
-              <item name="quanweijiedu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bdxk" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bdxk" type="462c0819:PsiDirectoryNode" />
-              <item name="zhuantituijian" type="462c0819:PsiDirectoryNode" />
-              <item name="zhongyangjingsheng" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -227,19 +181,19 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator.USER-20120726XC\Desktop\kx\bdxk\images\zhuantituijian\shijiuda\index" />
+      <recent name="C:\Users\Administrator.USER-20120726XC\Desktop\kx\bdxk\hudongpingtai\kejizhiku" />
+      <recent name="C:\Users\Administrator.USER-20120726XC\Desktop\kx\bdxk\images\hudongpingtai\kejizhiku" />
+      <recent name="C:\Users\Administrator.USER-20120726XC\Desktop\kx\bdxk\kexuepuji" />
+      <recent name="C:\Users\Administrator.USER-20120726XC\Desktop\kx\bdxk\images\chuangxinqudong" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Administrator.USER-20120726XC\Desktop\kx\bdxk\kexuepuji" />
       <recent name="C:\Users\Administrator.USER-20120726XC\Desktop\kx\bdxk\hudongpingtai\kejigongzuozhezhijia" />
       <recent name="C:\Users\Administrator.USER-20120726XC\Desktop\kx\bdxk\download\kexuepuji" />
       <recent name="C:\Users\Administrator.USER-20120726XC\Desktop\kx\bdxk\zhuantituijian\quanweijiedu" />
       <recent name="C:\Users\Administrator.USER-20120726XC\Desktop\kx\bdxk\images\zhuantituijian\shijiuda\index" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Administrator.USER-20120726XC\Desktop\kx\bdxk\hudongpingtai\kejizhiku" />
-      <recent name="C:\Users\Administrator.USER-20120726XC\Desktop\kx\bdxk\images\hudongpingtai\kejizhiku" />
-      <recent name="C:\Users\Administrator.USER-20120726XC\Desktop\kx\bdxk\kexuepuji" />
-      <recent name="C:\Users\Administrator.USER-20120726XC\Desktop\kx\bdxk\images\chuangxinqudong" />
-      <recent name="C:\Users\Administrator.USER-20120726XC\Desktop\kx\bdxk\chuangxinqudong" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -317,12 +271,12 @@
       <workItem from="1524530818356" duration="17266000" />
       <workItem from="1524615886968" duration="14744000" />
       <workItem from="1524700849737" duration="27549000" />
-      <workItem from="1524787202731" duration="3733000" />
+      <workItem from="1524787202731" duration="4665000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="342922000" />
+    <option name="totallyTimeSpent" value="343854000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="744" extended-state="7" />
@@ -364,13 +318,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/kexuepuji/qingshaoniansaishi-detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="125" column="25" lean-forward="false" selection-start-line="125" selection-start-column="25" selection-end-line="125" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kexuepuji/tongzhigonggao-detail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="377">
@@ -605,25 +552,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/images/hudongpingtai/kejizhiku/weixin.png" />
-    <entry file="file://$PROJECT_DIR$/hudongpingtai/kejizhiku/zhongyaozixun.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1721">
-          <caret line="245" column="50" lean-forward="false" selection-start-line="245" selection-start-column="50" selection-end-line="245" selection-end-column="50" />
-          <folding>
-            <element signature="n#li#1;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#2;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#3;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#4;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#5;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#6;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#7;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#8;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#9;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hudongpingtai/kejizhiku/zhikujieshao.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
@@ -651,16 +579,6 @@
     <entry file="file://$PROJECT_DIR$/images/chuangxinqudong/detail2.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hudongpingtai/kejizhiku/kejizhiku.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="43" column="50" lean-forward="false" selection-start-line="43" selection-start-column="50" selection-end-line="43" selection-end-column="50" />
-          <folding>
-            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/images/hudongpingtai/kejizhiku/cgk.png">
@@ -726,22 +644,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/hudongpingtai/kejizhiku/kejizhiku.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="771">
+          <caret line="87" column="54" lean-forward="false" selection-start-line="87" selection-start-column="54" selection-end-line="87" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hudongpingtai/kejizhiku/zhongyaozixun.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1599">
+          <caret line="281" column="54" lean-forward="false" selection-start-line="281" selection-start-column="54" selection-end-line="281" selection-end-column="54" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/zhuantituijian/shijiuda/index/banner1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/shijiuda.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="100" column="35" lean-forward="false" selection-start-line="100" selection-start-column="35" selection-end-line="100" selection-end-column="35" />
+        <state relative-caret-position="391">
+          <caret line="104" column="24" lean-forward="false" selection-start-line="104" selection-start-column="24" selection-end-line="104" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/zhuantituijian/shijiuda.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2033">
-          <caret line="246" column="25" lean-forward="true" selection-start-line="246" selection-start-column="25" selection-end-line="246" selection-end-column="25" />
+        <state relative-caret-position="308">
+          <caret line="31" column="20" lean-forward="true" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
           <folding>
             <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#11427#11820#0" expanded="false" />
+            <element signature="e#11507#11900#0" expanded="false" />
           </folding>
         </state>
       </provider>
