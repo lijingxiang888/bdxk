@@ -95,9 +95,74 @@
     height: auto;
     margin: 0 auto;
 }
+.content-detail form {
+    padding: 10px;
+    background-color: #e3e5e4;
+    border-radius: 5px;
+}
+.content-detail form input[type=text] {
+    width: 600px;
+    height: 28px;
+    padding: 0 10px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+.content-detail form button {
+    width: 76px;
+    height: 32px;
+    border: none;
+    background: url("../images/hudongpingtai/qiyexuqiu/search-btn.png");
+    vertical-align: top;
+    cursor: pointer;
+}
+.content-detail > ul {
+    height: 961px;
+    margin: 20px 0;
+    font-size: 15px;
+    border-top: 1px solid #666;
+    overflow: hidden;
+}
+.content-detail > ul li {
+    line-height: 1.5em;
+    margin: 10px 0;
+}
 .main .content .content-source p {
     height: 60px;
     line-height: 60px;
     font-size: 14px;
     text-align: right;
+}
+.content-detail .pagination {
+    margin: 10px 0;
+    text-align: center;
+}
+.content-detail .pagination ul {
+    max-width: 952px;
+    display: inline-block;
+    font-size: 15px;
+    overflow: hidden;
+
+}
+.content-detail .pagination li {
+    float: left;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 2px;
+    border: 1px solid #ccc;
+}
+.content-detail .pagination li:hover {
+    background-color: #2d87d0;
+}
+.content-detail .pagination li:hover a {
+    color: #fff;
+    text-decoration: none;
+}
+.content-detail .pagination li a {
+    display: block;
+}
+.content-detail .pagination li:first-child,
+.content-detail .pagination li:last-child
+{
+    width: 50px;
 }

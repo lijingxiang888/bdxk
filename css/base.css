@@ -9,10 +9,6 @@ body {
 /*首页公用样式*/
 a {
     color: #000;
-    -o-transition: all .25s ease-out;
-    -moz-transition: all .25s ease-out;
-    -webkit-transition: all .25s ease-out;
-    transition: all .25s ease-out;
 }
 a:hover {
     color: #ba2636;
