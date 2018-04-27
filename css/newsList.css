@@ -50,6 +50,7 @@
     margin-top: 5px;
     padding: 0 10px;
     font-size: 14px;
+
 }
 .main .content .content-title p{
     font-size: 16px;
@@ -57,6 +58,8 @@
 .main .content .content-title span {
     margin-left: 10px;
 }
+
+/*文章标题列表样式*/
 .main .content ul:nth-child(2) {
     height: 720px;
     padding: 10px 0;
@@ -187,4 +190,63 @@
     color: #FFF;
     border-radius: 4px;
     cursor: pointer;
+}
+
+/*树形分支样式*/
+.main .content .show {
+    position: relative;
+    height: 400px;
+}
+.content .show a {
+    position: absolute;
+    display: block;
+    width: 248px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    color: #87ad1e;
+    border: 1px solid #9a9a9a;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=white, endcolorstr=darkgray, gradientType=0); /*IE浏览器渐变*/
+    -ms-filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=white, endcolorstr=darkgray, gradientType=0);
+    background: #a9a9a9;
+    background: -webkit-linear-gradient(#fff, #ccc);
+    background: -o-linear-gradient(#fff, #ccc);
+    background: -moz-linear-gradient(#fff, #ccc);
+    background: linear-gradient(#fff, #ccc);
+    }
+.content .show a:nth-of-type(1) {
+    left: 50%;
+    top: 25px;
+    margin-left: -124px;
+}
+.content .show a:nth-of-type(2) {
+    left: 10px;
+    top: 200px;
+}
+.content .show a:nth-of-type(3) {
+    right: 10px;
+    top: 200px;
+}
+.content .show span {
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 33px;
+
+}
+.content .show span:nth-of-type(1) {
+    left: 150px;
+    top: 116px;
+    background: url("../images/hudongpingtai/qiyexuqiu/arrowleft.png");
+}
+.content .show span:nth-of-type(2) {
+    right: 150px;
+    top: 116px;
+    background: url("../images/hudongpingtai/qiyexuqiu/arrowright.png");
 }

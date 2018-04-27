@@ -3,15 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="3a7d2f6b-79fe-483c-8a0a-189533cdd8ef" name="Default" comment="2018/4/16">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/css/shijiuda.css" afterPath="$PROJECT_DIR$/css/shijiuda.css" />
-      <change beforePath="$PROJECT_DIR$/hudongpingtai/kejizhiku/kejizhiku.html" afterPath="$PROJECT_DIR$/hudongpingtai/kejizhiku/kejizhiku.html" />
-      <change beforePath="$PROJECT_DIR$/hudongpingtai/kejizhiku/zhongyaozixun.html" afterPath="$PROJECT_DIR$/hudongpingtai/kejizhiku/zhongyaozixun.html" />
-      <change beforePath="$PROJECT_DIR$/images/zhuantituijian/shijiuda/index/banner1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/zhuantituijian/shijiuda/index/banner2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/zhuantituijian/shijiuda/index/banner3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/zhuantituijian/shijiuda/index/banner4.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/zhuantituijian/shijiuda/index/banner5.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/zhuantituijian/shijiuda.html" afterPath="$PROJECT_DIR$/zhuantituijian/shijiuda.html" />
+      <change beforePath="$PROJECT_DIR$/css/newsList.css" afterPath="$PROJECT_DIR$/css/newsList.css" />
+      <change beforePath="$PROJECT_DIR$/hudongpingtai/hudongpingtai.html" afterPath="$PROJECT_DIR$/hudongpingtai/hudongpingtai.html" />
+      <change beforePath="$PROJECT_DIR$/hudongpingtai/xuehuizuzhixinxiguanli/xuehuijianshedayiban.html" afterPath="$PROJECT_DIR$/hudongpingtai/xuehuizuzhixinxiguanli/xuehuijianshedayiban.html" />
+      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change beforePath="$PROJECT_DIR$/kepuyuandi/kepushipin-detail/kepushipin-detail2.html" afterPath="$PROJECT_DIR$/kepuyuandi/kepushipin-detail/kepushipin-detail2.html" />
+      <change beforePath="$PROJECT_DIR$/kepuyuandi/kepushipin.html" afterPath="$PROJECT_DIR$/kepuyuandi/kepushipin.html" />
+      <change beforePath="$PROJECT_DIR$/kepuyuandi/keputuwen-detail/keputuwen-detail.html" afterPath="$PROJECT_DIR$/kepuyuandi/keputuwen-detail/keputuwen-detail.html" />
+      <change beforePath="$PROJECT_DIR$/kepuyuandi/keputuwen-detail/keputuwen-detail2.html" afterPath="$PROJECT_DIR$/kepuyuandi/keputuwen-detail/keputuwen-detail2.html" />
+      <change beforePath="$PROJECT_DIR$/kepuyuandi/keputuwen.html" afterPath="$PROJECT_DIR$/kepuyuandi/keputuwen.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,8 +30,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -56,14 +56,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/jicengkexiedongtai/jicengkexiedongtai.html" />
-        <option value="$PROJECT_DIR$/kepuyuandi/keputuwen-detail/keputuwen-detail.html" />
-        <option value="$PROJECT_DIR$/kepuyuandi/keputuwen-detail/keputuwen-detail2.html" />
-        <option value="$PROJECT_DIR$/kepuyuandi/kepushipin-detail/kepushipin-detail1.html" />
-        <option value="$PROJECT_DIR$/kepuyuandi/kepushipin-detail/kepushipin-detail2.html" />
-        <option value="$PROJECT_DIR$/kexuepuji/kepuhuodong.html" />
-        <option value="$PROJECT_DIR$/js/tip.js" />
-        <option value="$PROJECT_DIR$/quanjingkexie/dianziqikan.html" />
         <option value="$PROJECT_DIR$/quanjingkexie/dashiji.html" />
         <option value="$PROJECT_DIR$/quanjingkexie/zuzhijigou.html" />
         <option value="$PROJECT_DIR$/quanjingkexie/zhongyaowenjian.html" />
@@ -94,10 +86,6 @@
         <option value="$PROJECT_DIR$/xinwengonggao/toutiaoxinwen-detail/toutiaoxinwen-detail2.html" />
         <option value="$PROJECT_DIR$/xinwengonggao/tupianxinwen-detail/tupianxinwen-detail1.html" />
         <option value="$PROJECT_DIR$/xinwengonggao/tupianxinwen-detail/tupianxinwen-detail2.html" />
-        <option value="$PROJECT_DIR$/kepuyuandi/kepushipin.html" />
-        <option value="$PROJECT_DIR$/kepuyuandi/keputuwen.html" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/hudongpingtai/hudongpingtai.html" />
         <option value="$PROJECT_DIR$/hudongpingtai/kejizhiku/zhikujieshao.html" />
         <option value="$PROJECT_DIR$/css/kejizhiku.css" />
         <option value="$PROJECT_DIR$/hudongpingtai/kejizhiku/zhongyaozixun-detail.html" />
@@ -107,6 +95,18 @@
         <option value="$PROJECT_DIR$/hudongpingtai/kejizhiku/zhongyaozixun.html" />
         <option value="$PROJECT_DIR$/css/shijiuda.css" />
         <option value="$PROJECT_DIR$/zhuantituijian/shijiuda.html" />
+        <option value="$PROJECT_DIR$/kepuyuandi/kepushipin.html" />
+        <option value="$PROJECT_DIR$/kepuyuandi/keputuwen.html" />
+        <option value="$PROJECT_DIR$/kepuyuandi/keputuwen-detail/keputuwen-detail.html" />
+        <option value="$PROJECT_DIR$/kepuyuandi/keputuwen-detail/keputuwen-detail2.html" />
+        <option value="$PROJECT_DIR$/kepuyuandi/kepushipin-detail/kepushipin-detail2.html" />
+        <option value="$PROJECT_DIR$/hudongpingtai/xuehuizuzhixinxiguanli/xuehuijianshedayiban.html" />
+        <option value="$PROJECT_DIR$/js/256.js" />
+        <option value="$PROJECT_DIR$/css/newsList.css" />
+        <option value="$PROJECT_DIR$/hudongpingtai/qiyexuqiu/qiyekejixuqiu/qiyekejixuqiu.html" />
+        <option value="$PROJECT_DIR$/hudongpingtai/qiyexuqiu/kejichengguozhuanhua/kejichengguozhuanhua.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/hudongpingtai/hudongpingtai.html" />
       </list>
     </option>
   </component>
@@ -182,18 +182,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator.USER-20120726XC\Desktop\kx\bdxk\hudongpingtai\qiyexuqiu\kejichengguozhuanhua" />
+      <recent name="C:\Users\Administrator.USER-20120726XC\Desktop\kx\bdxk\images\hudongpingtai\qiyexuqiu" />
+      <recent name="C:\Users\Administrator.USER-20120726XC\Desktop\kx\bdxk\hudongpingtai\qiyexuqiu" />
       <recent name="C:\Users\Administrator.USER-20120726XC\Desktop\kx\bdxk\images\zhuantituijian\shijiuda\index" />
       <recent name="C:\Users\Administrator.USER-20120726XC\Desktop\kx\bdxk\hudongpingtai\kejizhiku" />
-      <recent name="C:\Users\Administrator.USER-20120726XC\Desktop\kx\bdxk\images\hudongpingtai\kejizhiku" />
-      <recent name="C:\Users\Administrator.USER-20120726XC\Desktop\kx\bdxk\kexuepuji" />
-      <recent name="C:\Users\Administrator.USER-20120726XC\Desktop\kx\bdxk\images\chuangxinqudong" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator.USER-20120726XC\Desktop\kx\bdxk\hudongpingtai\qiyexuqiu\qiyekejixuqiu" />
       <recent name="C:\Users\Administrator.USER-20120726XC\Desktop\kx\bdxk\kexuepuji" />
       <recent name="C:\Users\Administrator.USER-20120726XC\Desktop\kx\bdxk\hudongpingtai\kejigongzuozhezhijia" />
       <recent name="C:\Users\Administrator.USER-20120726XC\Desktop\kx\bdxk\download\kexuepuji" />
       <recent name="C:\Users\Administrator.USER-20120726XC\Desktop\kx\bdxk\zhuantituijian\quanweijiedu" />
-      <recent name="C:\Users\Administrator.USER-20120726XC\Desktop\kx\bdxk\images\zhuantituijian\shijiuda\index" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -271,12 +271,12 @@
       <workItem from="1524530818356" duration="17266000" />
       <workItem from="1524615886968" duration="14744000" />
       <workItem from="1524700849737" duration="27549000" />
-      <workItem from="1524787202731" duration="4665000" />
+      <workItem from="1524787202731" duration="18089000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="343854000" />
+    <option name="totallyTimeSpent" value="357278000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="744" extended-state="7" />
@@ -318,62 +318,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/kexuepuji/tongzhigonggao-detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="95" column="25" lean-forward="false" selection-start-line="95" selection-start-column="25" selection-end-line="95" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kexuepuji/tongzhigonggao.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quanjingkexie/zhongyaowenjian-detail/zhongyaowenjian-detail3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="65" column="38" lean-forward="true" selection-start-line="65" selection-start-column="38" selection-end-line="65" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quanjingkexie/zhongyaowenjian-detail/zhongyaowenjian-detail2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="62" column="51" lean-forward="false" selection-start-line="62" selection-start-column="51" selection-end-line="62" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quanjingkexie/zhongyaowenjian-detail/zhongyaowenjian-detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="62" column="51" lean-forward="false" selection-start-line="62" selection-start-column="51" selection-end-line="62" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quanjingkexie/lingdaojianghua-detail/lingdaojianghua-detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="60" column="38" lean-forward="false" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quanjingkexie/lingdaojianghua-detail/lingdaojianghua-detail2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="60" column="38" lean-forward="false" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xinwengonggao/tongzhigonggao-detail/tongzhigonggao-detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="62" column="38" lean-forward="false" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xinwengonggao/toutiaoxinwen-detail/toutiaoxinwen-detail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
@@ -479,70 +423,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kepuyuandi/kepushipin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="5" column="83" lean-forward="false" selection-start-line="5" selection-start-column="83" selection-end-line="5" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kepuyuandi/keputuwen.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="5" column="83" lean-forward="false" selection-start-line="5" selection-start-column="83" selection-end-line="5" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kepuyuandi/keputuwen-detail/keputuwen-detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3312">
-          <caret line="122" column="17" lean-forward="false" selection-start-line="122" selection-start-column="17" selection-end-line="122" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kepuyuandi/keputuwen-detail/keputuwen-detail2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4048">
-          <caret line="143" column="17" lean-forward="false" selection-start-line="143" selection-start-column="17" selection-end-line="143" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kepuyuandi/kepushipin-detail/kepushipin-detail1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="83" column="17" lean-forward="false" selection-start-line="83" selection-start-column="17" selection-end-line="83" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kepuyuandi/kepushipin-detail/kepushipin-detail2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="83" column="17" lean-forward="false" selection-start-line="83" selection-start-column="17" selection-end-line="83" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1511">
-          <caret line="77" column="13" lean-forward="true" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../shenzhuwang/shenzhu/css/base.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
           <caret line="69" column="34" lean-forward="false" selection-start-line="66" selection-start-column="4" selection-end-line="69" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hudongpingtai/hudongpingtai.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2078">
-          <caret line="108" column="87" lean-forward="false" selection-start-line="108" selection-start-column="87" selection-end-line="108" selection-end-column="87" />
-          <folding>
-            <marker date="1524715154961" expanded="true" signature="592:722" ph="..." />
-            <marker date="1524715154961" expanded="true" signature="632:710" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -620,14 +504,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11">
-          <caret line="296" column="67" lean-forward="false" selection-start-line="296" selection-start-column="67" selection-end-line="296" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zhuantituijian/quanweijiedu/detail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -683,6 +559,144 @@
             <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#11507#11900#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kepuyuandi/keputuwen.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-175">
+          <caret line="90" column="46" lean-forward="false" selection-start-line="90" selection-start-column="46" selection-end-line="90" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kepuyuandi/kepushipin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1926">
+          <caret line="100" column="46" lean-forward="true" selection-start-line="100" selection-start-column="46" selection-end-line="100" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kepuyuandi/keputuwen-detail/keputuwen-detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1495">
+          <caret line="62" column="38" lean-forward="false" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kepuyuandi/keputuwen-detail/keputuwen-detail2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2130">
+          <caret line="62" column="38" lean-forward="false" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kepuyuandi/kepushipin-detail/kepushipin-detail1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="787">
+          <caret line="83" column="17" lean-forward="false" selection-start-line="83" selection-start-column="17" selection-end-line="83" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kepuyuandi/kepushipin-detail/kepushipin-detail2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="60" column="38" lean-forward="false" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hudongpingtai/xuehuizuzhixinxiguanli/xuehuijianshedayiban.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-667">
+          <caret line="53" column="16" lean-forward="false" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/256.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/function.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1417">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/infoList.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2371">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="75" column="47" lean-forward="true" selection-start-line="69" selection-start-column="4" selection-end-line="75" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/hudongpingtai/qiyexuqiu/arrowleft.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/newsList.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="249" column="12" lean-forward="false" selection-start-line="249" selection-start-column="12" selection-end-line="249" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hudongpingtai/qiyexuqiu/qiyekejixuqiu/qiyekejixuqiu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="56" column="86" lean-forward="true" selection-start-line="56" selection-start-column="76" selection-end-line="56" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hudongpingtai/qiyexuqiu/kejichengguozhuanhua/kejichengguozhuanhua.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="72" column="39" lean-forward="false" selection-start-line="72" selection-start-column="39" selection-end-line="72" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="291" column="85" lean-forward="false" selection-start-line="291" selection-start-column="85" selection-end-line="291" selection-end-column="85" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hudongpingtai/hudongpingtai.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="679">
+          <caret line="102" column="67" lean-forward="false" selection-start-line="102" selection-start-column="67" selection-end-line="102" selection-end-column="67" />
+          <folding>
+            <marker date="1524815655778" expanded="true" signature="592:722" ph="..." />
+            <marker date="1524815655778" expanded="true" signature="632:710" ph="{...}" />
           </folding>
         </state>
       </provider>
