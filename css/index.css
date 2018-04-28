@@ -350,7 +350,13 @@
     padding: 0 16px;
 }
 .hudongpingtai .hudongpingtai-list ul li {
+    width: 433px;
+    height: 56px;
     margin-bottom: 15px;
+    letter-spacing: -6px;
+}
+.hudongpingtai-list li a {
+    display: inline-block;
 }
 
 .kepuyuandi {
