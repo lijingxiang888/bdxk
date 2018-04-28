@@ -42,14 +42,14 @@
 .top-news h2 a {
     display: block;
     color: #0074BC;
-    /*overflow: hidden;*/
-    /*text-overflow: ellipsis;*/
-    /*white-space: nowrap;*/
 }
 .top-news .top-news-more {
     text-align: right;
     padding: 8px 10px;
-    -moz-box-sizing:border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
     box-sizing: border-box;
 }
 
@@ -86,8 +86,11 @@
     margin-top: 15px;
     color: #0074BC;
     border: 1px solid #61bde4;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
     box-sizing: border-box;
-    -moz-box-sizing:border-box;
 }
 .pic-news .pic-news-title {
     width: 100%;
@@ -159,8 +162,11 @@
     height: 620px;
     margin-top: 20px;
     padding: 0 12px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
     box-sizing: border-box;
-    -moz-box-sizing:border-box;
 }
 .kexiedongtai > div:nth-child(1) {
     width: 620px;
@@ -202,8 +208,11 @@
     height: 253px;
     padding: 14px 10px;
     overflow: hidden;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
     box-sizing: border-box;
-    -moz-box-sizing:border-box;
 }
 .kexiedongtai .shikexie ul li,
 .kexiedongtai .jicengkecie ul li{
@@ -297,7 +306,6 @@
 }
 .all-kexie {
     width: 262px;
-    float: right;
 }
 .all-kexie .all-kexie-title {
     height: 19px;
@@ -336,8 +344,11 @@
     margin: 0 auto;
     margin-top: 20px;
     border: 1px solid #61bde4;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
     box-sizing: border-box;
-    -moz-box-sizing:border-box;
 }
 .hudongpingtai .hudongpingtai-title span,
 .youqinglianjie .youqinglianjie-title span
@@ -365,8 +376,11 @@
     margin: 0 auto;
     margin-top: 20px;
     border: 1px solid #61bde4;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
     box-sizing: border-box;
-    -moz-box-sizing:border-box;
 }
 .kepuyuandi .kepuyuandi-title ul {
     margin-right: 30px;

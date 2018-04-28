@@ -9,17 +9,25 @@
     line-height: 30px;
     text-align: right;
     border-bottom: 1px solid #999;
-    box-sizing: border-box;
     background: -webkit-linear-gradient(#fff, #ccc);
     background: -o-linear-gradient(#fff, #ccc);
     background: -moz-linear-gradient(#fff, #ccc);
     background: linear-gradient(#fff, #ccc);
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
 }
 .header-box {
     height: 220px;
-    box-sizing: border-box;
     overflow: hidden;
     background: url("../images/index/header-bg.png");
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
 }
 .logo-pic {
     float: left;
