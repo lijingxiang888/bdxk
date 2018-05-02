@@ -19,3 +19,10 @@
     margin: 0 auto;
     background: url("../images/index/mark.png");
 }
+/*兼容 1024px 设备以下分辨率*/
+@media all and (max-width:1024px){
+
+   .footer {
+       width: 1007px;
+   }
+}

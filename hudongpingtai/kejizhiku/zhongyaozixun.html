@@ -202,6 +202,33 @@
             font-size: 14px;
             color: #fff;
         }
+
+        /*兼容 1024px 设备以下分辨率*/
+        @media all and (max-width:1024px){
+
+            .header {
+                width: 1007px;
+            }
+            .nav {
+                width: 1007px;
+                padding: 0 12px;
+            }
+            .main {
+                width: 1007px;
+            }
+            .main .nav-bread {
+                padding: 0 15px;
+                box-sizing: border-box;
+            }
+            .main .content {
+                padding: 0 15px;
+                box-sizing: border-box;
+                text-align: justify;
+            }
+            .footer {
+                width: 100%;
+            }
+        }
     </style>
 </head>
 <body>

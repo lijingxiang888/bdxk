@@ -514,6 +514,15 @@
     margin: 0;
 }
 
+/*兼容 1024px 设备以下分辨率*/
+@media all and (max-width:1024px){
 
+    .main {
+        width: 1007px;
+    }
+    .footer {
+        width: 1007px;
+    }
+}
 
 

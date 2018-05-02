@@ -2,6 +2,13 @@
     width: 1024px;
     margin: 0 auto;
 }
+/*兼容 1024px 设备以下分辨率*/
+@media all and (max-width:1024px){
+
+    .header {
+        width: 1007px;
+    }
+}
 .backend-system {
     width: 100%;
     height: 30px;
