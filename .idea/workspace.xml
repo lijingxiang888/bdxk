@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3a7d2f6b-79fe-483c-8a0a-189533cdd8ef" name="Default" comment="2018/4/16">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/css/base.css" afterPath="$PROJECT_DIR$/css/base.css" />
-      <change beforePath="$PROJECT_DIR$/css/detail.css" afterPath="$PROJECT_DIR$/css/detail.css" />
-      <change beforePath="$PROJECT_DIR$/css/footer.css" afterPath="$PROJECT_DIR$/css/footer.css" />
-      <change beforePath="$PROJECT_DIR$/css/header.css" afterPath="$PROJECT_DIR$/css/header.css" />
-      <change beforePath="$PROJECT_DIR$/css/index.css" afterPath="$PROJECT_DIR$/css/index.css" />
-      <change beforePath="$PROJECT_DIR$/css/infoList.css" afterPath="$PROJECT_DIR$/css/infoList.css" />
-      <change beforePath="$PROJECT_DIR$/css/kejizhiku.css" afterPath="$PROJECT_DIR$/css/kejizhiku.css" />
-      <change beforePath="$PROJECT_DIR$/css/newsList.css" afterPath="$PROJECT_DIR$/css/newsList.css" />
-      <change beforePath="$PROJECT_DIR$/hudongpingtai/kejizhiku/zhikujieshao.html" afterPath="$PROJECT_DIR$/hudongpingtai/kejizhiku/zhikujieshao.html" />
-      <change beforePath="$PROJECT_DIR$/hudongpingtai/kejizhiku/zhongyaozixun-detail.html" afterPath="$PROJECT_DIR$/hudongpingtai/kejizhiku/zhongyaozixun-detail.html" />
-      <change beforePath="$PROJECT_DIR$/hudongpingtai/kejizhiku/zhongyaozixun.html" afterPath="$PROJECT_DIR$/hudongpingtai/kejizhiku/zhongyaozixun.html" />
-      <change beforePath="$PROJECT_DIR$/quanjingkexie/dashiji.html" afterPath="$PROJECT_DIR$/quanjingkexie/dashiji.html" />
-      <change beforePath="$PROJECT_DIR$/quanjingkexie/dianziqikan.html" afterPath="$PROJECT_DIR$/quanjingkexie/dianziqikan.html" />
-      <change beforePath="$PROJECT_DIR$/quanjingkexie/kexiejianjie.html" afterPath="$PROJECT_DIR$/quanjingkexie/kexiejianjie.html" />
-      <change beforePath="$PROJECT_DIR$/quanjingkexie/shizhixuehui.html" afterPath="$PROJECT_DIR$/quanjingkexie/shizhixuehui.html" />
-      <change beforePath="$PROJECT_DIR$/quanjingkexie/zuzhijigou.html" afterPath="$PROJECT_DIR$/quanjingkexie/zuzhijigou.html" />
-      <change beforePath="$PROJECT_DIR$/zhuantituijian/zhongyangjingsheng/list.html" afterPath="$PROJECT_DIR$/zhuantituijian/zhongyangjingsheng/list.html" />
-    </list>
+    <list default="true" id="3a7d2f6b-79fe-483c-8a0a-189533cdd8ef" name="Default" comment="2018/4/16" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -32,21 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-923">
-              <caret line="10" column="41" lean-forward="false" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-              <folding>
-                <element signature="n#li#0;n#ul#0;n#div#1;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#li#1;n#ul#0;n#div#1;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -197,7 +164,7 @@
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../shenzhuwang" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="liveEdit" />
@@ -297,18 +264,17 @@
       <workItem from="1524787202731" duration="25256000" />
       <workItem from="1524873240794" duration="16963000" />
       <workItem from="1525218595398" duration="166000" />
-      <workItem from="1525222614471" duration="29000" />
+      <workItem from="1525222614471" duration="1863000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="381603000" />
+    <option name="totallyTimeSpent" value="383437000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25514707" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25514707" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -673,7 +639,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-923">
+        <state relative-caret-position="276">
           <caret line="10" column="41" lean-forward="false" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
           <folding>
             <element signature="n#li#0;n#ul#0;n#div#1;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
